@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "g++ build active file",
+      "type": "shell",
+      "command": "/usr/bin/g++",
+      "args": [
+        "-g",
+        "-std=c++14",
+        "-Wno-c++11-extensions",
+        "${file}",
+        "-o",
+        "${fileDirname}/a.out"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
