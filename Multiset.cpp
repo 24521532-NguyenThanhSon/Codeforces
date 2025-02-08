@@ -21,4 +21,5 @@ void inp(){
         while(t--){
             inp();
         }
+        hihihi
     }
