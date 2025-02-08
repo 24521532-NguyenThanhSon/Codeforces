@@ -17,4 +17,5 @@ long long n, k;
             MIN = min(MIN, max(LeftMAX[i-k], RightMAX[i+1]));
         }
         cout << MIN << endl;
+        sadasdsad
 }
