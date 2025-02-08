@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c17",
+      "cppStandard": "c++17", // Try c++17 instead of c++14 for testing
+      "intelliSenseMode": "macos-clang-x64"
+    }
+  ],
+  "version": 4
+}
