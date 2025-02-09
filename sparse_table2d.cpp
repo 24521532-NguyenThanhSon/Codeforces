@@ -3,7 +3,7 @@
 #include<math.h>
     using namespace std;
 const int maxn = 1e2 + 5;
-long n, m, q;
+long n, m, q, k, h;
 long LG = 10;
 long a[maxn][maxn];
 long st[12][maxn][12][maxn];
