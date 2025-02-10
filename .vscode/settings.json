@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "files.associations": {
     "*.json": "json",
     "*.md": "markdown",
@@ -6,3 +7,9 @@
     "iostream": "cpp"
   }
 }
+=======
+    "files.associations": {
+        "ostream": "cpp"
+    }
+}
+>>>>>>> a339e49 (up)

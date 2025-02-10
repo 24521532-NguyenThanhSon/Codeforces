@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 void bfs(long lim){
 //     memset(trace, 0, sizeof(trace));
 //     queue<int> Q;
@@ -32,3 +33,12 @@ void bfs(long lim){
 //     }
 //     MaxFlow += delta;
 // }
+=======
+
+    dp[0][0] = 1;       
+    
+    for(long mask = 0; mask < (1 << N) - 1; mask++)
+    for(long last = 1; last <= N; last++){
+        if(mask == 0)   dp[mask + (1 << (last - 1))][last] += dp[mask][0];
+        else{
+>>>>>>> a339e49 (up)
