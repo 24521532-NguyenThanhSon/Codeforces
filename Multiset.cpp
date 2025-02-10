@@ -13,6 +13,10 @@ void inp(){
     }
     cout << (max1 + max2) * 2 << endl;
 
+
+    //phap test feature 1
+phap 3
+wtf is that
 }
     signed main(){
         ios_base::sync_with_stdio(false);
@@ -21,4 +25,5 @@ void inp(){
         while(t--){
             inp();
         }
+        hihihi
     }

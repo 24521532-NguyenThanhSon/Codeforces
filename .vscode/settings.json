@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.json": "json",
+    "*.md": "markdown",
+    "string": "cpp",
+    "iostream": "cpp"
+  }
+}
